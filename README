@@ -1,0 +1,1 @@
+Demonstrates a bug with `@JsonInclude(JsonInclude.Include.NON_DEFAULT)` when the value is a primitive and the default is not 0. The bug exists in Jackson 2.7.0 and higher.
